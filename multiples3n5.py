@@ -6,7 +6,8 @@ def main():
 
     Find the sum of all the multiples of 3 or 5 below 1000.
     '''
-
+    
+    # prints out 233168 which is the correct answer
     print multiples3n5(1000)
 
 def multiples3n5(number)
@@ -15,7 +16,6 @@ def multiples3n5(number)
         if i % 3 == 0 or i % 5 == 0:
             sum += i
 
-    # prints out 233168 which is the correct answer
     return sum
 
 if __name__ == "__main__":
